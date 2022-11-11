@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sharonWeb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <style>
+        #headTop{
+	        top:0;
+            #background-color:RGB(105,140,200);
+            background-color:RGB(139,195,250);
+            width:100%;
+            display:flex;
+            position:fixed;
+            z-index:99;
+        }
+        #div1{
+            padding:0 0px;
+        }
+        #shome{
+            padding:0 20px;
+            
+        }
+        .btn-group{
+            padding:0 1100px;
+        }
+        #divname{
+            background: linear-gradient(rgb(150,33,200),rgb(200,50,200))
+        }
+        .bb { 
+            position: absolute;
+            bottom: 50px;
+            left: 630px;
+            padding: 10px;
+            width: 13em;
+            height: 20px;
+            font-size: 20px;
+            color: #f1f1f1;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to bottom right, #808080 29%, #c8c8c8 100%);
+            border-color: #000000;
+            border-style: solid;
+            white-space: nowrap;
+            border-right: 5px solid transparent;
+            animation: bb 3.5s steps(13, end), blink-caret .75s step-end infinite;
+            overflow: hidden;
+        }
+        @keyframes bb {
+            from { width: 0; }
+            to { width: 13em; }
+        }
+    </style>
+</head>
+<body>
+    <div id=headTop >
+        <div>
+            <div id='shome'><a href=#top><button type="button" class="btn btn-outline-warning btn-lg"><a href=#top>S</a></button></a></div>
+        </div>
+        <div>
+            <div><!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false" color=bule>
+                    選單
+                    </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#number">作業</a>
+                            <a class="dropdown-item" href="#sp">自我介紹</a>
+                            <div class="dropdown-divider"></div>
+                            <!--
+                            <a class="dropdown-item" href="#">Separated link</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            -->
+                        </div>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id=divname>
+        <p><h3><a name='top' id=top>---</a></h3></p>
+        <p><h3 align=center>姓名：<i><b>陳雪葶</b></i></h3></p>
+        <p><h3 align=center>班級：資工二甲</h3></p>
+        <p><h3 align=center id=number>學號：1111032010</h3></p>
+    </div>
+    <div class="shadow p-3 mb-5 bg-white rounded" id='hw'>作業：</div>
+    
+        <!--
+    <a href=form.html target=_blank><h4 align=center>第一次表格作業</h4></a>
+    <a href=99.html ><h4 align=center>九九乘法表</h4></a>
+    <a href=div.html><h4 align=center>div排版</h4></a>
+    <a href=bsBlog.html><h4 align=center>blog</h4></a>
+    <div class="list-group">
+        -->
+  <a href="form.html" class="list-group-item list-group-item-action list-group-item-secondary">
+            <h4 align=center>第一次表格作業</h4></a>
+  <a href="99.html" class="list-group-item list-group-item-action list-group-item-success">
+      <h4 align=center>九九乘法表</h4></a>
+  <a href="div.html" class="list-group-item list-group-item-action list-group-item-danger">
+      <h4 align=center>div排版</h4></a>
+  <a href="bsBlog.html" class="list-group-item list-group-item-action list-group-item-warning">
+      <h4 align=center>blog</h4></a>
+</div>
+        <!--
+  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+  <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+        -->
+        <p id=sp>&nbsp</p>
+        <p> </p>
+        <p> </p>
+    <div  id='myself' class="shadow p-3 mb-5 bg-white rounded">自我介紹：</div>
+        <div id='div1'>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        </p>        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi sint, at, dolores dolorem sed ab, consectetur eum excepturi voluptate dignissimos sequi tenetur? Nulla unde saepe, ducimus placeat aut, possimus?
+        </div>
+</body>
+</html>
